@@ -1,1 +1,1 @@
-<body onload='for(i in a=["down","press","up"])eval("onkey"+a[i]+"=function(e){b.innerHTML+=\"<p>key"+a[i]+" \"+e.which}")'id=b>
+<body onload="['down','press','up'].map(x=>eval(`onkey${x}=e=>b.innerHTML+='<p>key${x} '+e.which`))"id=b>
