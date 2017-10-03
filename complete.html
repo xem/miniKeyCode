@@ -1,1 +1,1 @@
-<body onload="['down','press','up'].map(x=>eval(`onkey${x}=e=>b.innerHTML+='<p>key${x} '+e.which`))"id=b>
+<body onload='eval("down;press;up".replace(/\w+/g,"onkey$&=e=>b.innerHTML+=`<p>key$& `+e.which"))'id=b>
