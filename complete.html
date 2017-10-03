@@ -1,1 +1,1 @@
-<body onload='eval("down;press;up".replace(/\w+/g,"onkey$&=e=>b.innerText+=`\nkey$& `+e.which"))'id=b>
+<body onload='onkeydown=onkeyup=onkeypress=e=>b.innerHTML+=e.type+" "+e.which'id=b>
