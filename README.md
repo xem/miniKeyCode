@@ -14,6 +14,6 @@ Quickly find a JS keyCode with these two tools:
 <br>
 <br>
 
-- Complete (128b): http://xem.github.io/miniKeyCode/complete.html
+- Complete (81b): http://xem.github.io/miniKeyCode/complete.html
 
 => type anywhere. It outputs a keyCode on keydown, keypress and keyup events
